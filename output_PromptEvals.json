@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Extract all AWS S3 bucket names from a CloudFormation template string",
+    "format": "regex"
+  },
+  {
+    "task": "Parse an AWS IAM policy document and return a list of all allowed actions",
+    "format": "python"
+  },
+  {
+    "task": "Create a JSON configuration object for an AWS Lambda function environment with variables for database host, port, and API key",
+    "format": "json"
+  }
+]
