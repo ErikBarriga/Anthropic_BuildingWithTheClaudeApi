@@ -1,17 +1,18 @@
 [
   {
-    "task": "Create a JSON configuration file for an AWS Lambda function that processes S3 events, with environment variables for the S3 bucket name and DynamoDB table name",
-    "format": "json",
-    "solution_criteria": "Valid JSON structure with proper Lambda configuration, S3 event trigger definition, and environment variables section containing bucket and table name keys"
-  },
-  {
-    "task": "Write a Python function that takes an AWS CloudWatch log message and extracts the timestamp, log level (ERROR, WARN, INFO, DEBUG), and message content using regex pattern matching",
-    "format": "python",
-    "solution_criteria": "Function accepts a log string, uses regex to parse timestamp/level/message, returns a dictionary with 'timestamp', 'level', and 'message' keys, handles multiple log formats"
-  },
-  {
-    "task": "Create a regular expression that validates AWS IAM role ARN format (arn:aws:iam::account-id:role/role-name) and captures the account ID and role name separately",
-    "format": "regex",
-    "solution_criteria": "Regex pattern correctly matches valid IAM role ARNs, has capture groups for account ID and role name, rejects invalid formats, works with hyphens and underscores in role names"
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training day with 18km long run session in the afternoon",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Includes pre-workout meal (2-3 hours before 18km run) with easily digestible carbohydrates",
+      "Includes during-workout hydration/fueling strategy for sustained energy during long run",
+      "Includes post-workout recovery nutrition within 30-60 minutes after run with carbohydrates and protein",
+      "Total daily plan is compact and fits on a single page with meal times clearly specified"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a professional endurance athlete (marathon runner) requiring high carbohydrate intake and specific timing around training sessions, including pre-workout fueling, during-workout hydration strategy, and post-workout recovery nutrition"
   }
 ]

@@ -1,0 +1,23 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Marathon Training\n\nHere is a one-day meal plan for an athlete preparing for an 18km long run session:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (140g), Fat (85g), Carbs (420g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Oatmeal (100g dry weight) with honey (20g), banana (120g), and whole milk (240g). 1 whole egg scrambled (50g).\n    * Protein: 18g, Fat: 12g, Carbs: 85g\n\n* **Mid-Morning Snack (10:00 AM):** White bread (80g) with peanut butter (25g) and jam (15g). Orange juice (250ml).\n    * Protein: 10g, Fat: 10g, Carbs: 65g\n\n* **Lunch (1:00 PM):** Grilled chicken breast (150g), white rice (150g cooked), steamed carrots (100g), and olive oil (10ml).\n    * Protein: 45g, Fat: 12g, Carbs: 75g\n\n* **Pre-Run Snack (3:30 PM - 30 minutes before run):** Energy bar (65g) and sports drink (500ml).\n    * Protein: 8g, Fat: 8g, Carbs: 85g\n\n* **Post-Run Recovery Snack (5:00 PM - within 30 minutes of finishing):** Chocolate milk (500ml) with a banana (100g).\n    * Protein: 18g, Fat: 10g, Carbs: 70g\n\n* **Dinner (7:00 PM):** Lean ground beef (150g), whole wheat pasta (120g cooked), tomato sauce (150g), and parmesan cheese (20g).\n    * Protein: 35g, Fat: 20g, Carbs: 65g\n\n* **Evening Snack (9:00 PM):** Greek yogurt (200g) with granola (40g) and berries (80g).\n    * Protein: 16g, Fat: 13g, Carbs: 45g\n\nThis meal plan emphasizes carbohydrate-loading for sustained energy during the long run, adequate protein for muscle recovery, and strategic timing of meals and snacks to optimize performance and recovery.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "72 kg",
+        "goal": "Marathon training day with 18km long run session in the afternoon",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Includes pre-workout meal (2-3 hours before 18km run) with easily digestible carbohydrates",
+        "Includes during-workout hydration/fueling strategy for sustained energy during long run",
+        "Includes post-workout recovery nutrition within 30-60 minutes after run with carbohydrates and protein",
+        "Total daily plan is compact and fits on a single page with meal times clearly specified"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a professional endurance athlete (marathon runner) requiring high carbohydrate intake and specific timing around training sessions, including pre-workout fueling, during-workout hydration strategy, and post-workout recovery nutrition"
+    },
+    "score": 6,
+    "reasoning": "The solution meets all three mandatory requirements with clear daily totals, macronutrient breakdowns, and specific meal details with timing. However, it has a critical gap in the secondary criteria: while it includes pre- and post-workout nutrition, the during-workout fueling strategy for an 18km long run (90-120 minutes) is inadequately addressed. The energy bar and sports drink at 3:30 PM appear to be pre-run fuel rather than in-run sustenance. Additionally, there are mathematical inconsistencies between the stated macronutrient targets and the sum of individual meals. The pre-run meal timing logic is also questionable\u2014lunch at 1:00 PM provides the 2.5-hour buffer, making the 3:30 PM snack too close to the run start."
+  }
+]
