@@ -1,14 +1,14 @@
 [
   {
-    "task": "Extract all AWS S3 bucket names from a CloudFormation template string",
+    "task": "Parse an AWS S3 bucket name from an S3 URI (s3://bucket-name/key/path) and extract just the bucket name",
     "format": "regex"
   },
   {
-    "task": "Parse an AWS IAM policy document and return a list of all allowed actions",
+    "task": "Create a Python function that takes an AWS IAM policy JSON string and returns True if it contains any wildcard '*' actions",
     "format": "python"
   },
   {
-    "task": "Create a JSON configuration object for an AWS Lambda function environment with variables for database host, port, and API key",
+    "task": "Generate a JSON object representing an AWS Lambda environment variables configuration with three variables: DATABASE_URL, API_KEY, and LOG_LEVEL",
     "format": "json"
   }
 ]
